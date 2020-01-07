@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from './components/header';
 import './style.css';
+
 import Main from './pages/main';
+
+import Routes from './routes';
 
 const App = () => (
   <div className="App">
   <Header />
-  <Main />
-</div>
+  <Routes />
+  </div>
 );
 
 export default App;
